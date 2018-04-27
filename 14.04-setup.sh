@@ -1,6 +1,6 @@
 # This installation script is designed for and tested on Ubuntu 14.04 x64 kernel 4.4.0-121 generic
 
-# Optimized for Chinese Mainland ISP --------------------------------------------------------------------------------------------------------
+# Optimized for Mainland China ISP --------------------------------------------------------------------------------------------------------
 # Backup
 cp /etc/apt/sources.list /etc/apt/sources.list.bak 
 # `sources.list` Modify START 
