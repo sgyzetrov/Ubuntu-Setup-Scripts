@@ -6,7 +6,7 @@ my setup scripts for newly installed Ubuntu OS
 
 P.S.
 
-- When setup script is done, type `sudo reboot` to complete setup!
+- Setup script contains unreachable commands (because oh-my-zsh setup will terminate current bash process), I don't plan to resolve this issue. But unreachable to manually execute unreachable commands to complete setup script.
 - Flatabulous theme is enabled via manually setup in unity tweak tool.
 
 ## Run

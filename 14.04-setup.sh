@@ -129,6 +129,9 @@ git config --global user.email "guoyang@webmail.hzau.edu.cn"
 sudo apt-get install -y zsh
 chsh -s /bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# ⬆ will change shell, so commands below will most likely not getting executed. Should manually execute these.
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 source ~/.zshrc
+# Reboot system
+sudo reboot
