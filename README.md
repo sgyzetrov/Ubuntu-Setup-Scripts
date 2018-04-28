@@ -6,7 +6,7 @@ my setup scripts for newly installed Ubuntu OS
 
 P.S.
 
-- Setup script contains unreachable commands (because oh-my-zsh setup will terminate current bash process), I don't plan to resolve this issue. But unreachable to manually execute unreachable commands to complete setup script.
+- Setup script contains unreachable commands (because oh-my-zsh setup will terminate current bash process), I don't plan to resolve this issue. But recommend to manually execute unreachable commands to complete setup script.
 - Flatabulous theme is enabled via manually setup in unity tweak tool.
 
 ## Run
