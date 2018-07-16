@@ -1,6 +1,7 @@
 # This installation script is designed for and tested on Ubuntu 14.04 x64 kernel 4.4.0-121 generic
 
 # Optimized for Mainland China ISP --------------------------------------------------------------------------------------------------------
+# Anyone outside of mainland China should remove this part.
 # Backup
 cp /etc/apt/sources.list /etc/apt/sources.list.bak 
 # `sources.list` Modify START 
@@ -98,6 +99,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted unive
 # `sources.list` Modify END 
 # Overwrite sources.list file
 cp -f sources.list /etc/apt/sources.list
+# /.Optimized for Mainland China ISP END
 
 # Flush --------------------------------------------------------------------------------------------------------
 # Flatabulous theme in the mean time to save the extra flush
