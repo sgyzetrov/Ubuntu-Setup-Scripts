@@ -1,6 +1,6 @@
 # Ubuntu-Setup-Scripts
 
-![build-passing](https://img.shields.io/jenkins/s/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)
+![build-passing](precise-desktop-amd64_default.svg)
 
 my setup scripts for newly installed Ubuntu OS
 
