@@ -1,6 +1,7 @@
 # This installation script is designed for and tested on lubuntu 18.04 x64 kernel 4.15.0-20-generic
 
 # Optimized for Mainland China ISP --------------------------------------------------------------------------------------------------------
+# Anyone outside of mainland China should remove this part.
 # Backup
 cp /etc/apt/sources.list /etc/apt/sources.list.bak 
 # `sources.list` Modify START 
@@ -41,6 +42,7 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restri
 # `sources.list` Modify END 
 # Overwrite sources.list file
 cp -f sources.list /etc/apt/sources.list
+# /.Optimized for Mainland China ISP END
 
 # Flush --------------------------------------------------------------------------------------------------------
 # ultra-flat-icons theme in the mean time to save the extra flush
